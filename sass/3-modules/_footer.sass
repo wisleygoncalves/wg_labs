@@ -1,0 +1,24 @@
+@use '../1-base/variables'
+
+footer
+  display: flex
+  flex-direction: column
+  text-align: center
+  align-items: center
+  justify-content: center
+  height: 20vh
+
+.footerMedia
+  display: flex
+
+  li
+    margin: .8em .5em
+  
+  i
+    font-size: 1.7em
+    color: variables.$secondary-color
+    opacity: 1
+    transition: .4s
+
+    &:hover
+      opacity: .6
